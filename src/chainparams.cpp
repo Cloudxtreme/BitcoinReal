@@ -99,8 +99,8 @@ public:
         consensus.BIP34Hash = uint256S("0x000007d91d1254d60e2dd1ae580383070a4ddffa4c64c2eeb4a2f9ecc0414343");
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
 
-        consensus.nZawyLwmaAveragingWindow = 160;
-        consensus.nZawyLwmaAjustedWeight = 481;
+        consensus.nZawyLwmaAveragingWindow = 65;
+        consensus.nZawyLwmaAjustedWeight = 3927;
 
         consensus.nPowTargetTimespan = 0.2 * 60; // BTCr: 12 seconds
         consensus.nPowTargetSpacing = 0.1 * 60; // BTCr: 6 seconds
